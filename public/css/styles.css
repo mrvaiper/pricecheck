@@ -1,0 +1,44 @@
+/* public/css/styles.css */
+.action-btn.delete-product {
+    color: #dc3545;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.action-btn.delete-product:hover {
+    color: #a71d2a;
+}
+#delete-selected {
+    transition: opacity 0.3s;
+}
+#delete-selected i {
+    margin-right: 5px;
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.wc-thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.tag-pill {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+}
+.badge-diff-highest { background-color: #dc3545; }
+.badge-diff-high { background-color: #ff6b6b; }
+.badge-diff-medium { background-color: #28a745; }
+.badge-diff-negative { background-color: #17a2b8; }
+.diff-highest { color: #dc3545; font-weight: bold; }
+.diff-high { color: #ff6b6b; }
+.diff-medium { color: #28a745; }
+.diff-negative { color: #17a2b8; }
+.action-btn { cursor: pointer; color: #007bff; }
+.action-btn:hover { color: #0056b3; }
+.chart-container { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.section-title { margin-bottom: 20px; }
+.card { transition: transform 0.2s; }
+.card:hover { transform: translateY(-5px); }
